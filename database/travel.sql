@@ -1,1 +1,0 @@
--- phpMyAdmin SQL Dumpimplementation
