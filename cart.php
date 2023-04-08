@@ -2,8 +2,8 @@
 
 session_start();
 
-require_once ("inc/Database.php");
-require_once ("inc/dynamic_elements.php");
+require_once ("config/Database.php");
+require_once ("config/showProduct.php");
 
 $db = new Database();
 
@@ -48,7 +48,7 @@ if(isset($_GET['action']) && $_GET['action'] == "update_qty"){
 <body class="bg-light">
 
 <?php
-    require_once ('inc/header.php');
+    require_once ('config/header.php');
 ?>
 
 <div class="container-fluid">

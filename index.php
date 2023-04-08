@@ -2,8 +2,8 @@
 
 session_start();
 
-require_once ('inc/Database.php');
-require_once ('inc/dynamic_elements.php');
+require_once ('config/Database.php');
+require_once ('config/showProduct.php');
 
 
 // create instance of Database class
@@ -54,7 +54,7 @@ if (isset($_POST['add'])){
 <body>
 
 
-<?php require_once ("inc/header.php"); ?>
+<?php require_once ("config/header.php"); ?>
 <div class="container">
         <div class="row text-center py-5">
             <?php

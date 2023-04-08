@@ -13,7 +13,7 @@ class Database
 
         // class constructor
     public function __construct(
-        $dbname = "adv_shopping_cart",
+        $dbname = "shopping_cart",
         $tablename = "products",
         $servername = "localhost",
         $username = "root",
