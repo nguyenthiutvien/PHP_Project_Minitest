@@ -49,8 +49,7 @@ function cartItems($product_details){
                                 <h5 class='pt-2'>{$product_details['name']}</h5>
                                 <small class='text-secondary'>Description: {$product_details['description']}</small>
                                 <h5 class='pt-2'>$ {$product_details['current_price']}</h5>
-                                <button onclick='if(confirm('Are you sure to remove this item from list?') === true)location.replace('cart.php?action=removeItem&id={$product_details['id']}');' type='button' class='btn btn-outline-danger btn-sm rounded-0 mx-2' name='remove'><i class='fas fa-trash'></i> Remove Item</button>
-                            </div>
+                                <button onclick='if(confirm('Are you sure to remove this item from list?') === true)location.replace('cart.php?action=removeItem&id={$product_details['id']}');'type='button' class='btn btn-outline-danger btn-sm rounded-0 mx-2' name='remove'><i class='fas fa-trash'></i> Remove Item</button>                            </div>
                             <div class='col-md-3 py-5'>
                                 <div class='input-group'>
                                     <button onclick='location.replace('cart.php?action=update_qty&pid={$product_details['id']}&operation=minus')' type='button' class='btn bg-light border rounded-0'><i class='fas fa-minus'></i></button>

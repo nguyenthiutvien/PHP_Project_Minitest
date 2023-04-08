@@ -29,9 +29,9 @@
                             foreach($_SESSION['cart'] as $v){
                                 $count += $v;
                             }
-                            echo "<span id=\"cart_count\" class=\"text-light bg-danger rounded-0\">$count</span>";
+                            echo "<span id='cart_count' class='text-light bg-danger rounded-100'>$count</span>";
                         }else{
-                            echo "<span id=\"cart_count\" class=\"text-light bg-danger rounded-0\">0</span>";
+                            echo "<span id='cart_count' class='text-light bg-danger rounded-100''>0</span>";
                         }
                         ?>
                         Cart
